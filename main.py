@@ -55,6 +55,7 @@ while True:
             os.system(cmd_limpar)
     elif opcao == 2:
         webbrowser.open("https://github.com/burnsecurity/onionlinks")
+        webbrowser.open("https://www.instagram.com/burnsecurity/")
     elif opcao == 3:
         os.system(cmd_limpar)
         print("Criado por: Ryan Aragão")
