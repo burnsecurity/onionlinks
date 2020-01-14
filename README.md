@@ -6,7 +6,9 @@ Ferramenta para busca automática de sites da Rede Onion
 1. git clone https://github.com/burnsecurity/onionlinks.git
 2. cd onionlinks.git
 3. pip3 install -r requirements.txt
-4. python3 main.py
+4. python3 main.py (Windows) 
+   
+   sudo python3 main.py (Linux)
 
 ## Utilização
 ![alt text](https://i.imgur.com/qSCsWLS.png)
