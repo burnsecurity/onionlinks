@@ -11,7 +11,7 @@ Ferramenta para busca automática de sites da Rede Onion
    sudo python3 main.py (Linux)
 
 ## Utilização
-![alt text](https://i.imgur.com/qSCsWLS.png)
+![alt text](https://i.imgur.com/B73ZXhy.png)
 
 1. Digite o tipo de conteúdo que deseja procurar.
 2. Selecione a opção 1.
