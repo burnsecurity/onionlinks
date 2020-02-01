@@ -46,6 +46,11 @@ while True:
         dork = f'{conteudo} site:onion.link | site:onion.cab | site:onion.sh | site:tor2web.fi | site:onion.direct'
         with open("sitesonion.txt", "w") as stream:
             for url in search(dork, stop=50 or 1):
+                url=url.replace('https://', '')
+                url=url.replace('http://', '')
+                url=url.split("/")[0]
+                url=url.replace('.sh', '')
+                url=url.replace('.link', '')
                 print(url, file=stream)
             os.system(cmd_limpar)
             print("-----------------------------------------------------")
@@ -66,5 +71,4 @@ while True:
         os.system(cmd_limpar)
     else:
         print("Essa opção não existe, tente novamente!")
-
 
