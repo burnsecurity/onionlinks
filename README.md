@@ -1,6 +1,8 @@
 # Onionlinks
 Ferramenta para busca automática de sites da Rede Onion
 
+OnionLinks é um Crawler que faz buscas no Google por sites da Rede Onion que foram Indexados, ele retorna os links em um arquivo TXT possibilitando assim que o usuário os utilize, e o melhor: Você pode escolher o tipo de conteúdo que ela deve procurar!
+
 ## Instalação
 
 1. git clone https://github.com/burnsecurity/onionlinks.git
